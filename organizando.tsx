@@ -65,98 +65,7 @@ export const LandingPage = (): JSX.Element => {
   return (
     
 
-        <div className="absolute w-[1536px] h-[657px] top-10 left-[189px]">
-          <div className="absolute w-[1401px] h-[657px] top-0 left-0">
-            <div className="absolute w-[1270px] h-[106px] top-0 left-[131px] bg-[#eaeaea]" />
-
-            <div className="inline-flex items-center gap-[33px] absolute top-[29px] left-[833px]">
-              <div className="relative w-56 h-[15px]">
-                <div className="absolute top-0 left-0 [font-family:'Inter-Regular',Helvetica] font-normal text-[#444444] text-xs tracking-[0] leading-[normal]">
-                  Sobre
-                </div>
-
-                <div className="absolute top-0 left-16 [font-family:'Inter-Regular',Helvetica] font-normal text-[#444444] text-xs tracking-[0] leading-[normal]">
-                  Serviços
-                </div>
-
-                <div className="absolute top-0 left-[142px] [font-family:'Inter-Regular',Helvetica] font-normal text-[#444444] text-xs tracking-[0] leading-[normal]">
-                  Depoimentos
-                </div>
-              </div>
-
-              <div className="flex w-[147px] h-[47px] items-center justify-center gap-2.5 px-[35px] py-3 relative rounded-3xl [background:linear-gradient(19deg,rgba(0,194,203,1)_0%,rgba(0,224,228,1)_100%)]">
-                <div className="relative w-fit [font-family:'Inter-Bold',Helvetica] font-bold text-branco text-xs tracking-[0] leading-[normal]">
-                  Contato
-                </div>
-              </div>
-            </div>
-
-            <img
-              className="absolute w-[523px] h-[513px] top-[104px] left-0"
-              alt="Blob esquerdo"
-              src={blobEsquerdo}
-            />
-
-            <img
-              className="absolute w-[471px] h-[425px] top-[231px] left-[71px]"
-              alt="Blob esquerdo"
-              src={blobEsquerdo2}
-            />
-
-            <div className="absolute w-[309px] h-[132px] top-[259px] left-[188px]">
-              <div className="absolute top-[111px] left-[121px] [font-family:'Poppins-Regular',Helvetica] font-normal text-white text-sm tracking-[4.20px] leading-[normal]">
-                studio
-              </div>
-
-              <div className="absolute w-[305px] h-[45px] top-[59px] left-0">
-                <img
-                  className="absolute w-[305px] h-px top-11 left-0"
-                  alt="Line"
-                  src={line7}
-                />
-
-                <div className="absolute w-[296px] top-0 left-[9px] [font-family:'Playfair_Display-Regular',Helvetica] font-normal text-white text-3xl tracking-[0] leading-[normal]">
-                  NATHALIA CREDIDIO
-                </div>
-              </div>
-
-              <img
-                className="absolute w-[71px] h-[59px] top-0 left-[122px] object-cover"
-                alt="Logo nc sem fundo"
-                src={logoNcSemFundo1}
-              />
-            </div>
-
-            <p className="absolute top-[633px] left-[478px] [font-family:'Inter-Regular',Helvetica] font-normal text-[#444444] text-xl tracking-[0] leading-[normal] whitespace-nowrap">
-              Estúdio especializado em tratamentos faciais, corporais e
-              bem-estar
-            </p>
-          </div>
-
-          <div className="absolute w-[839px] h-[491px] top-[155px] left-[697px]">
-            <img
-              className="absolute w-[341px] h-[315px] top-44 left-[498px]"
-              alt="Blob direito"
-              src={blobDireito}
-            />
-
-            <img
-              className="absolute w-[577px] h-[303px] top-0 left-0 object-cover"
-              alt="Studio"
-              src={studio}
-            />
-          </div>
-
-          <p className="absolute w-[426px] top-[465px] left-[697px] [font-family:'Playfair_Display-Regular',Helvetica] font-normal text-[#444444] text-[50px] tracking-[0] leading-[normal]">
-            Sua beleza <br />é o melhor padrão
-          </p>
-        </div>
-
-        <div className="flex w-[259px] h-[60px] items-center justify-center gap-2.5 px-[37px] py-3.5 absolute top-[729px] left-[826px] rounded-3xl [background:linear-gradient(19deg,rgba(0,194,203,1)_0%,rgba(0,224,228,1)_100%)]">
-          <div className="relative w-fit [font-family:'Inter-Bold',Helvetica] font-bold text-branco text-xs tracking-[0] leading-[normal]">
-            Agende um horário
-          </div>
-        </div>
+        
 
         <div className="absolute w-[2044px] h-[3276px] top-[975px] left-0">
           <div className="absolute w-[2044px] h-[3276px] top-0 left-0">
@@ -200,53 +109,7 @@ export const LandingPage = (): JSX.Element => {
               </div>
             </div>
 
-            <p className="absolute w-[359px] top-0 left-[603px] [font-family:'Playfair_Display-Regular',Helvetica] font-normal text-transparent text-[40px] tracking-[0] leading-[normal]">
-              <span className="text-[#444444]">Olá, sou a </span>
-
-              <span className="text-[#00c2cb]">Nathalia</span>
-
-              <span className="text-[#444444]">
-                .<br />
-                Seja
-              </span>
-
-              <span className="text-[#66dde3]">&nbsp;</span>
-
-              <span className="text-[#00c2cb]">bem-vinda</span>
-
-              <span className="text-[#66dde3]">&nbsp;</span>
-
-              <span className="text-[#444444]">
-                ao <br />
-                meu studio.
-                <br />
-              </span>
-
-              <span className="text-[#66dde3]">
-                <br />
-              </span>
-
-              <span className="text-[#444444]">
-                <br />
-              </span>
-
-              <span className="[font-family:'Inter-Regular',Helvetica] text-[#444444]">
-                <br />
-              </span>
-            </p>
-
-            <p className="absolute w-[315px] top-[500px] left-[893px] [font-family:'Inter-Regular',Helvetica] font-normal text-[#444444] text-lg tracking-[0] leading-[30px]">
-              Sou especialista em massoterapia e atuo na área de estética há 4
-              anos. Meu objetivo é proporcionar cuidado e bem estar, realçando a
-              beleza natural com técnicas adequadas a cada caso e atendimento
-              personalizado.
-            </p>
-
-            <img
-              className="w-[775px] top-[2143px] left-0 absolute h-[908px] object-cover"
-              alt="Flor depoimentos"
-              src={florDepoimentos}
-            />
+            
 
             <img
               className="absolute w-[535px] h-0.5 top-[862px] left-[694px]"

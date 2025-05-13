@@ -5,7 +5,7 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <header className="w-full bg-card shadow-sm px-4 py-4">
+    <header className="w-full bg-[#00c1cb20] shadow-sm px-4 py-7">
       <div className="max-w-[1400px] mx-auto flex items-center justify-end">
 
         {/* Menu desktop */}

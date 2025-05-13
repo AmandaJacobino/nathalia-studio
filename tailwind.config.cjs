@@ -5,6 +5,7 @@ export default {
 
   theme: {
     extend: {
+      
       colors: {
         card: '#EAEAEA',
         linearTiffany: '#00E0E4',
@@ -12,10 +13,11 @@ export default {
         white: '#FFFFFF',
         textColor: '#444444',
       },
+      
       fontFamily: {
         title: ['"Playfair Display"', 'serif'],
         body: ['Inter', 'sans-serif'],
-      },
+      },     
     },
   },
   plugins: [],
