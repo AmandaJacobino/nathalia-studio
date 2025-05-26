@@ -162,11 +162,11 @@ export default function ServicesCarousel() {
       setWindowWidth(window.innerWidth);
       
       if (window.innerWidth < 640) {
-        setTopPosition(180); // Para celulares
+        setTopPosition(180); // Celulares
       } else if (window.innerWidth < 1024) {
-        setTopPosition(220); // Para tablets
+        setTopPosition(220); // Tablets
       } else {
-        setTopPosition(250); // Para desktops
+        setTopPosition(250); // Desktops
       }
     };
 
@@ -249,13 +249,13 @@ export default function ServicesCarousel() {
   };
 
   return (
-    <section className="w-full py-16 md:py-32 px-4 md:px-8 lg:px-16 xl:px-24 bg-white overflow-visible">
+    <section id="servicos" className="w-full py-16 md:py-32 px-4 md:px-8 lg:px-16 xl:px-24 bg-white overflow-visible">
       {/* Título e subtítulo */}
       <div className="text-center mb-16">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium [font-family:'Playfair_Display',serif] text-[#444444] mb-4">
           Conheça nossos serviços mais procurados
         </h2>
-        <p className="text-lg md:text-xl font-medium [font-family:'Poppins',sans-serif] text-[#444444] tracking-wider">
+        <p className="text-lg md:text-xl font-medium [font-family:'Inter',sans-serif] text-[#444444] tracking-wider">
           Realce sua beleza e relaxe sua mente
         </p>
       </div>
@@ -274,8 +274,8 @@ export default function ServicesCarousel() {
             }`}
             style={{
               position: 'absolute',
-              top: `${topPosition}px`, // Altura 
-              left: windowWidth < 640 ? '-10px' : '-40px' // Posicionamento 
+              top: `${topPosition}px`, 
+              left: windowWidth < 640 ? '-10px' : '-40px' 
             }}
           >
             <button 
@@ -294,8 +294,8 @@ export default function ServicesCarousel() {
             }`}
             style={{
               position: 'absolute',
-              top: `${topPosition}px`, // Altura 
-              right: windowWidth < 640 ? '-10px' : '-40px' // Posicionamento 
+              top: `${topPosition}px`, 
+              right: windowWidth < 640 ? '-10px' : '-40px' 
             }}
           >
             <button 
@@ -345,7 +345,7 @@ export default function ServicesCarousel() {
                 
                 {/* Descrição principal */}
                 <div className="px-5 sm:px-6 md:px-8 pt-2">
-                  <p className="[font-family:'Poppins',sans-serif] text-sm md:text-base text-[#555555] leading-6">
+                  <p className="[font-family:'Inter',sans-serif] text-sm md:text-base text-[#555555] leading-6">
                     {services[index].mainDescription}
                   </p>
                 </div>
@@ -354,10 +354,10 @@ export default function ServicesCarousel() {
                 <div className="px-5 sm:px-6 md:px-8 mt-auto pb-6 sm:pb-8 pt-4 sm:pt-6">
                   {services[index].bonus && (
                     <>
-                      <p className="[font-family:'Poppins',sans-serif] font-semibold text-[#00c2cb] text-sm md:text-base mb-2">
+                      <p className="[font-family:'Inter',sans-serif] font-semibold text-[#00c2cb] text-sm md:text-base mb-2">
                         Bônus desse serviço:
                       </p>
-                      <p className="[font-family:'Poppins',sans-serif] text-sm md:text-base text-[#555555]">
+                      <p className="[font-family:'Inter',sans-serif] text-sm md:text-base text-[#555555]">
                         {services[index].bonus}
                       </p>
                     </>
@@ -365,10 +365,10 @@ export default function ServicesCarousel() {
                   
                   {services[index].combos && (
                     <>
-                      <p className="[font-family:'Poppins',sans-serif] font-semibold text-[#00c2cb] text-sm md:text-base mb-2">
+                      <p className="[font-family:'Inter',sans-serif] font-semibold text-[#00c2cb] text-sm md:text-base mb-2">
                         Combos desse serviço:
                       </p>
-                      <p className="[font-family:'Poppins',sans-serif] text-sm md:text-base text-[#555555]">
+                      <p className="[font-family:'Inter',sans-serif] text-sm md:text-base text-[#555555]">
                         {services[index].combos}
                       </p>
                     </>
