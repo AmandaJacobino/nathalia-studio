@@ -9,9 +9,11 @@
     font-family: 'Inter', sans-serif;
     background-color: white;
     color: #444444;
+    scroll-behavior: smooth;
   }
 
   h1, h2, h3, h4 {
     font-family: 'Playfair_Display', serif;
   }
+
 }

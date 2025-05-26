@@ -2,13 +2,11 @@ import React from "react";
 
 export default function About() {
   return (
-    <section className="w-full bg-white py-16 md:py-32 mt-12 md:mt-24 px-4 md:px-20 relative overflow-hidden">
+    <section id="sobre" className="w-full bg-white py-16 md:py-32 mt-12 md:mt-24 px-4 md:px-20 relative overflow-hidden">
       <div className="max-w-6xl mx-auto w-full">
-        {/* Layout para mobile e desktop */}
         <div className="md:hidden flex flex-col items-center">
-          {/* Mobile layout (foto, título, parágrafo, fotos) */}
           
-          {/* Imagem oval */}
+          {/* Imagem da nathalia */}
           <div className="mt-4 w-56 h-[330px] rounded-full overflow-hidden bg-cyan-100 shadow-lg z-10">
             <img
               src="src/assets/imagens/foto-nathalia.png"
@@ -17,7 +15,7 @@ export default function About() {
             />
           </div>
           
-          {/* Texto principal */}
+          {/* Título */}
           <h1 className="mt-8 w-full text-3xl font-normal leading-snug [font-family:'Playfair_Display',serif] text-[#444444] text-center">
             Olá, sou a <span className="text-[#00c2cb]">Nathalia</span>.<br />
             Seja <span className="text-[#00c2cb]">bem-vinda</span> ao <br /> 
@@ -25,7 +23,7 @@ export default function About() {
           </h1>
           
           {/* Texto descritivo */}
-          <p className="mt-6 text-base leading-[28px] text-[#444444] [font-family:'Inter',sans-serif] text-center px-4">
+          <p className="mt-6 text-justify leading-[28px] text-[#444444] [font-family:'Inter',sans-serif] px-4 min-w-[300px]">
             Sou especialista em massoterapia e atuo na área de estética há 4 anos.
             Meu objetivo é proporcionar cuidado e bem estar, realçando a beleza
             natural com técnicas adequadas a cada caso e atendimento personalizado.
@@ -51,11 +49,10 @@ export default function About() {
           </div>
         </div>
         
-        {/* Layout desktop original */}
         <div className="hidden md:flex flex-row gap-10 items-start justify-between">
-          {/* Coluna da esquerda: Título e Imagens */}
+          {/* Coluna esquerda: */}
           <div className="flex flex-col gap-6 ml-72">
-            {/* Texto principal */}
+            {/* Título */}
             <h1 className="w-[22rem] text-4xl font-normal leading-snug [font-family:'Playfair_Display',serif] text-[#444444]">
               Olá, sou a <span className="text-[#00c2cb]">Nathalia</span>.<br />
               Seja <span className="text-[#00c2cb]">bem-vinda</span> ao <br /> 
@@ -82,9 +79,9 @@ export default function About() {
             </div>
           </div>
 
-          {/* Coluna da direita: Imagem oval + descrição */}
+          {/* Coluna da direita: */}
           <div className="flex flex-col items-start justify-start w-1/2 relative z-10 -ml-20">
-            {/* Imagem oval */}
+            {/* Imagem da nathalia */}
             <div className="mt-24 w-64 h-[380px] rounded-full overflow-hidden bg-cyan-100 shadow-lg">
               <img
                 src="src/assets/imagens/foto-nathalia.png"

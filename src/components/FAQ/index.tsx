@@ -36,7 +36,7 @@ export default function FAQ() {
   };
 
   return (
-    <section className="w-full py-16 md:py-32 px-4 md:px-8 lg:px-16 xl:px-24 bg-white" id="faq">
+    <section id="FAQ" className="w-full py-16 md:py-32 px-4 md:px-8 lg:px-16 xl:px-24 bg-white">
       {/* Título da seção */}
       <div className="text-center mb-16">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium [font-family:'Playfair_Display',serif] text-[#444444]">
@@ -78,7 +78,7 @@ export default function FAQ() {
             {/* Conteúdo da resposta */}
             {openIndex === index && (
               <div className="bg-white rounded-3xl p-6 mt-2 shadow-md border border-solid border-[#b2f4f6] transition-all duration-500 animate-fadeIn">
-                <p className="[font-family:'Poppins',sans-serif] text-sm md:text-base text-[#444444] leading-6 text-center">
+                <p className="[font-family:'Inter',sans-serif] text-sm md:text-base text-[#444444] leading-6 text-center">
                   {faq.answer}
                 </p>
               </div>
