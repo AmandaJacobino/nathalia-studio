@@ -14,7 +14,7 @@ export default function ServicesCarousel() {
     {
       id: 1,
       title: "Limpeza de pele",
-      image: "src/assets/imagens/foto-studio01.jpeg", 
+      image: "src/assets/imagens/imagem-servicos.png", 
       mainDescription: (
         <>
           <span className="font-semibold text-[#00c2cb]">Higienização</span>,{" "}
@@ -36,7 +36,7 @@ export default function ServicesCarousel() {
     {
       id: 2,
       title: "Dermaplaning",
-      image: "src/assets/imagens/foto-studio03.jpeg", 
+      image: "src/assets/imagens/imagem-servicos.png", 
       mainDescription: (
         <>
           Promove a <span className="font-semibold text-[#00c2cb]">remoção</span> da 
@@ -57,7 +57,7 @@ export default function ServicesCarousel() {
     {
       id: 3,
       title: "Maquiagem",
-      image: "src/assets/imagens/foto-studio02.jpeg", 
+      image: "src/assets/imagens/imagem-servicos.png", 
       mainDescription: (
         <>
           Realce sua beleza com{" "}
@@ -73,7 +73,7 @@ export default function ServicesCarousel() {
     {
       id: 4,
       title: "Design de sobrancelhas",
-      image: "src/assets/imagens/foto-studio01.jpeg", 
+      image: "src/assets/imagens/imagem-servicos.png", 
       mainDescription: (
         <>
           Design personalizado para{" "}
@@ -93,7 +93,7 @@ export default function ServicesCarousel() {
     {
       id: 5,
       title: "SPA da pele",
-      image: "src/assets/imagens/foto-studio03.jpeg", 
+      image: "src/assets/imagens/imagem-servicos.png", 
       mainDescription: (
         <>
           Tratamento completo para revitalizar sua pele com produtos naturais e técnicas relaxantes.
@@ -109,7 +109,7 @@ export default function ServicesCarousel() {
     {
       id: 6,
       title: "Massagem relaxante",
-      image: "src/assets/imagens/foto-studio02.jpeg", 
+      image: "src/assets/imagens/imagem-servicos.png", 
       mainDescription: (
         <>
           Alívio do estresse e tensão muscular com movimentos suaves e óleos essenciais.
@@ -125,7 +125,7 @@ export default function ServicesCarousel() {
     {
       id: 7,
       title: "Massagem modeladora",
-      image: "src/assets/imagens/foto-studio01.jpeg", 
+      image: "src/assets/imagens/imagem-servicos.png", 
       mainDescription: (
         <>
           Técnica que auxilia na redução de medidas e melhora o contorno corporal.
@@ -141,7 +141,7 @@ export default function ServicesCarousel() {
     {
       id: 8,
       title: "Massagem linfática",
-      image: "src/assets/imagens/foto-studio03.jpeg", 
+      image: "src/assets/imagens/imagem-servicos.png", 
       mainDescription: (
         <>
           Drenagem que facilita a eliminação de toxinas e reduz o inchaço corporal.
